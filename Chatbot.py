@@ -96,4 +96,4 @@ elif input_method == "Voice Input":
 
 # Display chat history
 for msg in st.session_state.messages:
-    st.write(f"{msg['role'].capitalize()}: {msg['content']}") hi
+    st.write(f"{msg['role'].capitalize()}: {msg['content']}")
